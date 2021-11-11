@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RPS game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="page.js" defer></script>
+</head>
+<body>
+  <div class="selections">
+    <button class="selection" data-selection="rock"><img src= "svg/rock.svg"></button>
+    <button class="selection" data-selection="paper"><img src= "svg/paper.svg"></button>
+    <button class="selection" data-selection="scissors"><img src= "svg/scissors.svg"></button>
+  </div>
+  <div class="results">
+    <div>
+      <h1>You</h1>
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+      <h1>Computer</h1>
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+</body>
+</html>
